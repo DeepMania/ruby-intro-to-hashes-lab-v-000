@@ -17,7 +17,7 @@ end
 
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash youpieces: 4
-	monopoly = {
+	monopoly => {
 		:railroads => {
 		  :pieces => 4,
 	    :names => {},
