@@ -17,7 +17,10 @@ end
 
 def monopoly_with_second_tier
 	#copy and paste the monopoly hash youpieces: 4
-	:names => {
+	monopoly = {
+		:railroads => {
+		:pieces => 4,
+	  :names => {
 		:reading_railroad => {
 			"mortgage_value" => "$100"
 		},
